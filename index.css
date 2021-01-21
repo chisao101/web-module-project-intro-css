@@ -132,6 +132,14 @@ footer{
     padding: 2rem;
 }
 
+button{
+    color: #fff;
+    background-color: orangered;
+    border-radius: 10px;
+    padding: 20px 40px;
+    text-align: center;
+}
+
 .footer-img {
     background-image: url(assets/footer_img.jpg);
     background-repeat: no-repeat;
@@ -256,4 +264,20 @@ footer nav{
     border-radius: 10px;
     border: 6px solid #fff;
     box-shadow: 2px 2px 2px 1px rgb(71, 71, 71);
+}
+
+.donate{
+    margin: 30px;
+    display: flex;
+    gap: 5rem;
+    justify-content: space-around;
+}
+
+.donate div{
+    width: 600px;
+
+}
+
+.donate img{
+    width: 600px;
 }
