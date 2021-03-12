@@ -171,10 +171,14 @@ footer nav{
 }
 
 .h1-bg{
-    background: #000;
+    background: rgba(0, 0, 0, 0.7);
     padding: 3rem;
-    opacity: .8;
     border-radius: 20px;
+    transition-duration: 500ms;
+}
+
+.h1-bg:hover {
+    transform: scale(130%);
 }
 
 .lodging{
