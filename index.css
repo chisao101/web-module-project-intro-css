@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+p{
+    margin: 2rem;
+}
+
+nav{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bold{
+    font-weight: 900;
+}
+
+a{
+    display: flex;
+    color: white;
+    border-radius: 10px;
+    height: 70px;
+    width: 150px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    text-decoration: none;
+    transition-duration: 500ms;
+}
+
+a:nth-child(1){
+    background-color:#FF764E;
+}
+
+a:nth-child(2){
+    background-color: #5ED3EB;
+}
+
+a:nth-child(3){
+    background-color: #FFCD69;
+}
+
+a:hover{
+    transform: scale(130%);
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.hero{
+    display: flex;
+    margin: 2rem;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hero-logo{
+    flex: 1 1 300px;
+    transition-duration: 500ms;
+}
+
+.hero-logo:hover{
+    transform: scale(110%);
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 2 600px;
+}
+
+.hero img{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+
+h1{
+    font-size: 72px;
+    font-family: 'Chelsea Market', cursive;
+}
+
+h3{
+    margin: 2rem;
+}
+
+.about{
+    background-color: #DDB9A3;
+    color: #fff;
+    padding: 4rem;
+    margin: 2rem;
+}
+
+.about p{
+    margin: 1.5rem;
+}
+
+.info{
+    margin: 2rem;
+    text-align: center;
+}
+.info img{
+    height: 200px;
+    width: 200px;
+}
+
+.info div{
+    width: 300px;
+    margin: 2rem auto;
+}
+
+footer{
+    background-color: #F9E7DC;
+    height: 600px;
+    width: 100%;
+}
+
+.bottom{
+    background-color: #F9E7DC;
+    height: 200px;
+    width: 100%;
+    padding: 2rem;
+}
+
+button{
+    color: #fff;
+    background-color: orangered;
+    border-radius: 10px;
+    padding: 20px 40px;
+    text-align: center;
+}
+
+.footer-img {
+    background-image: url(assets/footer_img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left top;
+    width: 100%;
+    height: 400px;
+}
+
+footer nav{
+    margin: 30px;
+}
+
+/* plan your visit */
+.visit-hero-img{
+    width: 100%;
+    background-image: url("assets/featured-img2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.h1-bg{
+    background: rgba(0, 0, 0, 0.7);
+    padding: 3rem;
+    border-radius: 20px;
+    transition-duration: 500ms;
+}
+
+.h1-bg:hover {
+    transform: scale(130%);
+}
+
+.lodging{
+    display: flex;
+    flex: 1 1 28%;
+    margin: 2rem;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.lodging img{
+    width: 250px;
+    height: 250px;
+    border: 6px solid #fff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgb(71, 71, 71);
+    margin-bottom: 2rem;
+}
+
+.plan-visit{
+    flex: 1 1 28%;
+    text-align: center;
+    background-color: #5ED3EB;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+#fire-restrictions{
+    display: flex;
+    gap: 2rem;
+    background-color: #FF764E;
+    color: #fff;
+    padding: 2rem;
+    margin: 2rem;
+    border-radius: 10px;
+}
+
+.fire-img img{
+    border-radius: 10px;
+    border: 6px solid #fff;
+    box-shadow: 2px 2px 2px 1px rgb(71, 71, 71);
+}
+
+/* learn about the park */
+
+.learn-hero-img{
+    width: 100%;
+    background: url("assets/featured-img1.jpg");    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    height: 500px;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+/* .plant-life{
+    display: flex;
+    flex-direction: row;
+} */
+
+.get-involved-hero-img{
+    width: 100%;
+    background: url("assets/featured-img3.jpg");    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+/* .park-size{
+
+} */
+
+.about-section{
+    margin: 2rem;
+    display: flex;
+}
+
+.about-section img{
+    border-radius: 10px;
+    border: 6px solid #fff;
+    box-shadow: 2px 2px 2px 1px rgb(71, 71, 71);
+}
+
+.donate{
+    margin: 30px;
+    display: flex;
+    gap: 5rem;
+    justify-content: space-around;
+}
+
+.donate div{
+    width: 600px;
+
+}
+
+.donate img{
+    width: 600px;
+}
